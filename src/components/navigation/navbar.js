@@ -8,7 +8,7 @@ function Navbar(){
 
     const [loading,setLoading] = useState(true)
     return(
-        <nav className="w-full py-4 top-0 fixed">
+        <nav className="w-full bg-white py-4 top-0 fixed">
             <div className="bg-white px-6 sm:px-6">
             <div className="-ml-4 -mt-2 flex flex-wrap items-center justify-between sm:flex-nowrap md:px-10 p-2 ">
                 <Link to = '/' className="ml-2 mt-2">
